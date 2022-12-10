@@ -71,4 +71,6 @@ And to run the command, use __**ctrl + T**__
 
 #### All That Is Left Is To Protect your King Status! ;)
 
-
+## My socials:
+<br>@ twitter: https://twitter.com/M3tr1c_root
+<br>@ instagram: https://instagram.com/m3tr1c_r00t/
