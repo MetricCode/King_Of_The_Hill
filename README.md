@@ -9,3 +9,6 @@ __  __ __                     _______   ___       _______ __                 ___
 ```
 Try Hack Me's Walkthrough to King of The Hill ...
 
+## My socials:
+<br>@ twitter: https://twitter.com/M3tr1c_root
+<br>@ instagram: https://instagram.com/m3tr1c_r00t/
