@@ -111,4 +111,18 @@ _**Priv Esc...**_
 <br>Dont forget to make the file executable after uploading it to the system....
 ![Screenshot_2022-12-05_18_58_36](https://user-images.githubusercontent.com/99975622/207181123-eb909ddf-74fc-4aaa-a664-e670aa4274be.png)
 
+Set up a listener on the port you assigned the script and now you are root!
+![Screenshot_2022-12-05_19_00_34](https://user-images.githubusercontent.com/99975622/207182293-cd17880a-092a-482a-b4bd-4db8d99651d9.png)
+
+_**Priv Esc 2...**_
+<br> You can also get root using polkit python script CVE-2021-4034
+![Screenshot_2022-12-05_19_10_02](https://user-images.githubusercontent.com/99975622/207182478-18ec3c49-5760-4d5a-b509-96c11dd78aac.png)
+Now....
+<br>Defend Your King Title! 
+;)
+## My socials:
+<br>@ twitter: https://twitter.com/M3tr1c_root
+<br>@ instagram: https://instagram.com/m3tr1c_r00t/
+
+
 
