@@ -173,3 +173,5 @@ And were root....
 <br>@ twitter: https://twitter.com/M3tr1c_root
 <br>@ instagram: https://instagram.com/m3tr1c_r00t/
 
+
+![Screenshot_2022-11-27_20_46_49](https://user-images.githubusercontent.com/99975622/207662162-c5ac0263-2001-4e7f-8f4c-7948f7034bbb.png)
