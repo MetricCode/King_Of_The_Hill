@@ -144,9 +144,11 @@ OS and Service detection performed. Please report any incorrect results at https
 # Nmap done at Sun Nov 27 20:42:39 2022 -- 1 IP address (1 host up) scanned in 161.76 seconds
 
 ```
-**Port 80**
+### Port 80
+<br>
 ![Screenshot_2022-11-27_20_46_49](https://user-images.githubusercontent.com/99975622/207662162-c5ac0263-2001-4e7f-8f4c-7948f7034bbb.png)
 If we Check the page source, we can find a username....
+<br>
 ![Screenshot_2022-11-27_20_46_52](https://user-images.githubusercontent.com/99975622/207662345-4c0558f8-4ef3-4383-8919-4b2dca726577.png)
 Well, i did a bruteforce on ssh using the username as a trend so as to save time and it worked lol.......
 <br>
@@ -158,6 +160,7 @@ On checking our user permissions, we find that we can run the ftp binary as root
 ![Screenshot_2022-11-27_21_03_23](https://user-images.githubusercontent.com/99975622/207662942-7becac7f-80f5-4171-8a80-052cdea5ecef.png)
 
 We go to gtfobins and we find an exploit.....
+<br>
 ![Screenshot_2022-11-27_21_09_50](https://user-images.githubusercontent.com/99975622/207662963-258bea72-2753-4890-9c7f-f3da2ec12b73.png)
 
 And were root....
