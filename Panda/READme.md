@@ -175,4 +175,5 @@ And were root....
 <br>@ instagram: https://instagram.com/m3tr1c_r00t/
 
 
-![Screenshot_2022-11-27_20_46_49](https://user-images.githubusercontent.com/99975622/207662162-c5ac0263-2001-4e7f-8f4c-7948f7034bbb.png)
+
+![Screenshot_2022-11-27_20_46_52](https://user-images.githubusercontent.com/99975622/207662345-4c0558f8-4ef3-4383-8919-4b2dca726577.png)
