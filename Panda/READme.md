@@ -157,8 +157,6 @@ Well, i did a bruteforce on ssh using the username as a trend so as to save time
 <br>
 ![Screenshot_2022-11-27_21_00_22](https://user-images.githubusercontent.com/99975622/207662598-3c173f32-b506-4df1-99c2-1b65f2dd7682.png)
 
-![Screenshot_2022-11-27_21_00_22](https://user-images.githubusercontent.com/99975622/207662598-3c173f32-b506-4df1-99c2-1b65f2dd7682.png)
-
 ### Priv Esc....
 On checking our user permissions, we find that we can run the ftp binary as root...
 
@@ -175,7 +173,3 @@ And were root....
 ## My socials:
 <br>@ twitter: https://twitter.com/M3tr1c_root
 <br>@ instagram: https://instagram.com/m3tr1c_r00t/
-
-
-
-![Screenshot_2022-11-27_20_46_52](https://user-images.githubusercontent.com/99975622/207662345-4c0558f8-4ef3-4383-8919-4b2dca726577.png)
