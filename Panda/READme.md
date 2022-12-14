@@ -152,6 +152,7 @@ If we Check the page source, we can find a username....
 
 <br>
 ![Screenshot_2022-11-27_20_46_52](https://user-images.githubusercontent.com/99975622/207662345-4c0558f8-4ef3-4383-8919-4b2dca726577.png)
+![Screenshot_2022-11-27_20_46_52](https://user-images.githubusercontent.com/99975622/207662345-4c0558f8-4ef3-4383-8919-4b2dca726577.png)
 Well, i did a bruteforce on ssh using the username as a trend so as to save time and it worked lol.......
 
 <br>
