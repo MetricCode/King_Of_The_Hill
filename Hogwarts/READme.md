@@ -165,12 +165,24 @@ Well, seeing that there's anonymous login , we can check it out...
 There's a wierd directory named (...) after entering the directory there's another similar directory and after visiting it, we find a hidden zip file and a note....
 ![Screenshot_2022-12-14_15_30_24](https://user-images.githubusercontent.com/99975622/209465525-69269146-99b8-4156-b109-bd42f25cecd5.png)
 
+After transfering the files to machine, note the zip file is encrypted. We can hash it using crackmapexec or john the ripper....
 
+![Screenshot_2022-12-14_15_30_22](https://user-images.githubusercontent.com/99975622/209475309-712cfc86-b49a-4546-b977-a47d6d33a98a.png)
+After unzipping the file, we get login creds which we can use in ssh...
+![Screenshot_2022-12-14_15_30_43](https://user-images.githubusercontent.com/99975622/209475330-44311313-a7c4-4ac0-a80a-e0a5ca463aa0.png)
+ We can now get the user flag....
+ ### Priv Esc...
 
+![Screenshot_2022-12-14_15_31_40](https://user-images.githubusercontent.com/99975622/209475338-2f40bcbe-ec74-4707-9759-b89026601449.png)
+The box is vulnerable to pwnkit so we can use the python script to get root...
 
+![Screenshot_2022-12-14_15_32_35](https://user-images.githubusercontent.com/99975622/209475366-49f060ae-7c9b-4a43-a60e-71992ec11930.png)
+Done!
+Now, Protect your Throne!! :)
 
-
-
+## My socials:
+<br>@ twitter: https://twitter.com/M3tr1c_root
+<br>@ instagram: https://instagram.com/m3tr1c_r00t/
 
 
 
