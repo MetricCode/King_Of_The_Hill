@@ -48,8 +48,28 @@ tmux -S attach default
 and you will be root!
 ![Screenshot_2022-12-06_18_10_59](https://user-images.githubusercontent.com/99975622/210019941-01f42524-500f-43fc-96f9-e76c41fb8e47.png)
 
+
+
+
+#### Note...
+
+```
+when you get to root, move out of the root directory, copy the koth binary and the flag into tmp directory then rename the folder to r00t or anything... 
+Next create a new folder named root, copy the koth binary from tmp then flag and then echo your nickname to the king.txt
+This is because of the 'e' file attribute.....
+you can check files with this character by using ls -lZ *
+you must have SELinux.....
+
+```
+The solution for now... :)
 Now, protect your king!:)
 ## My socials:
 <br>@ twitter: https://twitter.com/M3tr1c_root
 <br>@ instagram: https://instagram.com/m3tr1c_r00t/
+
+
+
+
+
+
 
