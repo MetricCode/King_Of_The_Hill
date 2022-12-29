@@ -24,25 +24,18 @@ While on  burp suite,add the php file extension on the file then upload ....
 ```
 https://prateek-gangwar.medium.com/validation-for-double-extension-file-upload-cc52ec688ff3
 ```
-
 ![Screenshot_2022-12-06_18_06_11](https://user-images.githubusercontent.com/99975622/210019147-ef4d5b6c-4207-40ea-8b08-20936c66f3af.png)
-
 after changing the extension....
-
 
 ![Screenshot_2022-12-06_18_06_26](https://user-images.githubusercontent.com/99975622/210019450-2e0bc4bb-e813-44f4-b18e-7eae57cd412a.png)
 Set up your listener, then curl the address to your file...
 
-
 ![Screenshot_2022-12-06_18_07_24](https://user-images.githubusercontent.com/99975622/210019529-4ca22aaa-da16-47e9-82fd-2776dffd9d7e.png)
-
-
-
 And you get a shell...
+
 ### Priv Esc ...
 Head over to the /tmp directory and you will find a tmux-0 file...
 ![Screenshot_2022-12-06_18_08_31](https://user-images.githubusercontent.com/99975622/210019875-0a612827-3603-47ac-975d-b204661366d5.png)
-
 <br>There's a tmux vulnerability where you can hijack sessions that are run as root....
 looking into the directory, you will find a session default owned by root....
 ```
